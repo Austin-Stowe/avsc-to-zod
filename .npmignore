@@ -1,0 +1,5 @@
+src
+.github
+package-lock.json
+tsconfig.json
+shell.nix
