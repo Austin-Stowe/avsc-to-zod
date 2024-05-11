@@ -1,0 +1,29 @@
+{
+  "name": "avsc-to-zod",
+  "version": "0.0.1",
+  "description": "Convert an AVSC Avro Schema into a Zod schema for TypeScript runtime accessibility",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "lint": "tsc",
+    "test:dev": "vitest",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "avro",
+    "zod",
+    "avsc"
+  ],
+  "author": "Austin Stowe",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com:Austin-Stowe/avsc-to-zod.git"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.11",
+    "tsup": "^8.0.2",
+    "typescript": "^5.4.5",
+    "vitest": "^1.6.0"
+  }
+}
